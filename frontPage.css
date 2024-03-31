@@ -36,37 +36,43 @@ h1{
     float: right;
 }
 
-#wallpaper{
 
-    width: 95%;
-    height: 600px;
-    margin: 50px 0px 0px 0px;
+
+#options{
+  display: flex;
+  padding: 30px 20px 10px 100px;
 }
-  
-.container {
+#box{
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 250px;
+  margin-right: 100px;
+  padding-top: 22px;
+  font-size: 20px;
 
-    position: relative;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-  }
+}
+ 
+#wallpaper{
+  padding: 30px 25px 20px 25px;
+  display: inline-block;
+}
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.DCA{
+  position: absolute;
+  top: 30%;
+  left: 20%;
 
-  #options{
-    display: inline-block;
-  }
+  font-size: 50px;
+  font-family: "Tauri", sans-serif;
 
-  #box{
-    display: inline-block;
-   border-width: 2px;
-  }
-  h3{
-    font-size: 20px;
-  }
+}
+p{
+  text-align: center;
+}
