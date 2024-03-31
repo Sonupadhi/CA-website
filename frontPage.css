@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#top-bar{
+    height: 80px;
+    padding-bottom: 1px;
+    background-color: darkgray;
+    display: flex;
+}
+
+#SOA-logo1{
+    height: 45px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    display: inline;
+   
+}   
+
+
+h1{
+    padding-top: 2px;
+    font-family: "Bungee", sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    margin-right: 820px;
+}
+
+#list{
+    padding: 20px 15px 12px 0px;
+    height: 45px;
+    float: right;
+}
+
+#wallpaper{
+    height: 600px;
+    margin: 50px 0px 0px 0px;
+}
+  
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
